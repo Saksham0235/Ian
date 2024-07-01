@@ -1,0 +1,33 @@
+.main{
+    /* /* width: 1532px; */
+    height: 650px; 
+    max-height: 650px;
+    position: relative;
+    top:10rem;
+    z-index: -1 ;
+    overflow: hidden;
+}
+
+.small-headings{
+color:#5D5D66;
+cursor:default;
+font-family: 'manifapro2regular' !important;
+font-weight: 400;
+letter-spacing: 1px;
+}
+
+.big-heading{
+    height: auto;
+    color: rgb(196, 8, 7);
+    text-decoration: none;
+    white-space: normal;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: center;
+    line-height: 85px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 90px;
+}
