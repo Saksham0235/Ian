@@ -4,10 +4,12 @@ header {
   justify-content: space-between;
   height: 80px;
   padding: 0 2rem;
+  margin:1rem 6rem;
   background-color: white;
 }
 nav{
   width: 70vw;
+  /* border:1px solid red */
 }
 .logo {
   width: 19vw;
@@ -21,7 +23,8 @@ nav{
   margin: 0 1rem;
   text-decoration: none;
   color: black;
-  font-weight: 550;
+  font-weight: 700;
+  font-size: 1.3rem;
 }
 
 .navlink:hover {
@@ -63,7 +66,7 @@ nav{
     justify-content: center;
     gap: 1.2rem;
     background-color: white;
-    transform: translateY(-100vh);
+    transform: translateY(-200vh);
   }
   .responsive_nav {
     transform: none;
@@ -78,9 +81,12 @@ nav{
   }
   
   header{
-    width:100vw
+    width:100vw;
+    margin:0.5rem 0rem;
   }
   .logo{
     width:fit-content
   }
 }
+
+
